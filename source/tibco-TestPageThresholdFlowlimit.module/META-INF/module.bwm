@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_8xn2AJOQEeqvaNhnDqlxNg" targetNamespace="http://tns.tibco.com/bw/composite/tibco-TestPageThresholdFlowlimit.module" name="tibco-TestPageThresholdFlowlimit.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_92oWQJOQEeqvaNhnDqlxNg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_92408JOQEeqvaNhnDqlxNg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_92_ioJOQEeqvaNhnDqlxNg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_93FpQJOQEeqvaNhnDqlxNg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_93MW8JOQEeqvaNhnDqlxNg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_93R2gJOQEeqvaNhnDqlxNg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_93X9IJOQEeqvaNhnDqlxNg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_93dcsJOQEeqvaNhnDqlxNg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_93kxcJOQEeqvaNhnDqlxNg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_MXnrwJOXEeqvaNhnDqlxNg" name="jmsQueuePublish500msg" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_9Xlp0JOQEeqvaNhnDqlxNg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_9Xm38JOQEeqvaNhnDqlxNg" processName="tibco-testpagethresholdflowlimit.module.publish500Messages"/>
+  </sca:component>
+  <sca:component xmi:id="_mthWkJOZEeqvaNhnDqlxNg" name="ComponenttestPageThresholdFlowlimit" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_mthWkZOZEeqvaNhnDqlxNg" processName="tibco-testpagethresholdflowlimit.module.testPageThresholdFlowlimit"/>
+  </sca:component>
+</sca:composite>
